@@ -115,6 +115,21 @@
     <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
 
   </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
         <li class="menu-item menu-item-archives">
 
     <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
@@ -147,6 +162,74 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/06/04/post/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="SHY">
+      <meta itemprop="description" content="中国华东理工大学计算机科学与技术在读。目前致力于学习算法竞赛，希望日后能进入后端岗位工作。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="我的博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2022/06/04/post/" class="post-title-link" itemprop="url">codeforces#796-div2记录</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2022-06-04 10:56:35 / 修改时间：11:22:11" itemprop="dateCreated datePublished" datetime="2022-06-04T10:56:35+08:00">2022-06-04</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E9%9A%8F%E7%AC%94/" itemprop="url" rel="index"><span itemprop="name">随笔</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>        这场div2是国人出题，然而与我相性极差。简单A就直接卡了半小时，一开始跑了几个大数据原以为可以trick下暴力过，结果直接Wa2。随后一个小时开始罚坐，在群友的提示（D sb题！）下先去开D，直觉上是个推公式但瞪眼了半天都没看出来，但好在苦思冥想从样例中猜到了greedy结论，尝试了一下直接1A，让我得以在1：41从一万名开外跃升到2300名（史诗反转，热血起来了），然后尝试看C，瞪了半天觉得也是个greedy，但是时间不允许自己严谨地思考greedy的正确性了，瞪了半天发现样例的initial character都是出现次数为奇数的字母，大胆码了一发，然而题目并没有给字符串长度上限，一开始开了1000的字符数组读取，然后RE了，这时候就能隐约地感受到结论是对的了，只不过数组长度出了问题，一开始保守地加到了10000，然而还是RE了，时间来到了1：56，我的内心出现了一丝动摇，不过还是硬着头皮开到1e5，冒着最坏复杂度可能会TLE的风险交了一手，好在这一手赌对了，成功AC，1：57保持在了2300名，最后这场div2的B反而罕见地没开出来，或许是这场对于我late register的惩罚吧。不过最后rating起码是正的了，结果也还可以接受。</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://example.com/2022/06/01/%E7%BA%BF%E6%AE%B5%E6%A0%91%E7%9C%9F%E7%9A%84%E5%A4%AA%E9%9A%BE%E8%B0%83%EF%BC%81/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -170,9 +253,24 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2022-06-01 22:42:07 / 修改时间：22:47:14" itemprop="dateCreated datePublished" datetime="2022-06-01T22:42:07+08:00">2022-06-01</time>
+              <time title="创建时间：2022-06-01 22:42:07" itemprop="dateCreated datePublished" datetime="2022-06-01T22:42:07+08:00">2022-06-01</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2022-06-02 21:40:28" itemprop="dateModified" datetime="2022-06-02T21:40:28+08:00">2022-06-02</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%B8%B8/" itemprop="url" rel="index"><span itemprop="name">学习日常</span></a>
+                </span>
             </span>
 
           
@@ -345,15 +443,24 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">3</span>
           <span class="site-state-item-name">日志</span>
         </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">分类</span></a>
       </div>
   </nav>
 </div>
 
 
-
+<!-- CloudCalendar -->
+<div class="widget-wrap" style="width: 90%;margin-left: auto;margin-right: auto; opacity: 0.97;">
+	<div class="widget" id="CloudCalendar"></div>
+</div>
       </div>
 
     </div>
@@ -432,6 +539,23 @@
   
 
   
+<!-- calendar widget -->
+
+    <script src="//cdn.jsdelivr.net/gh/theme-next/theme-next-calendar/calendar.min.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/theme-next/theme-next-calendar/languages.min.js"></script>
+    <script>
+    $(function() {
+        $('#CloudCalendar').aCalendar('zh-CN',
+            $.extend(
+                '', {
+                    single:true,
+                    root:'/calendar/'
+                }
+            )
+        );
+    });
+    </script>
+
 
 </body>
 </html>
